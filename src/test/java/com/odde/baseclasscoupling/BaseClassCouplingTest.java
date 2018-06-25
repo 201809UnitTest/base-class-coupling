@@ -14,8 +14,7 @@ public class BaseClassCouplingTest {
         LessThanOneYearEmployee lessThanOneYearEmployee = new LessThanOneYearEmployee() {{
             setId(91);
             //Console.WriteLine("your StartDate should be :{0}", DateTime.Today.AddDays(365/2*-1));
-            setStartWorkingDate(LocalDate.of(2017, 7, 29));
-
+            setStartWorkingDate(LocalDate.of(2017, 12, 26));
         }};
 
         double actual = lessThanOneYearEmployee.getYearlyBonus();
